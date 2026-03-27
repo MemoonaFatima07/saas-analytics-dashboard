@@ -1,37 +1,39 @@
-🧾 Invoice Management System
-A robust backend solution for managing business billing and customer relationships, built with Django. This project focuses on structured data management and professional CRUD operations.
+🚀DevAnalytics: Modern SaaS Dashboard
+A high-performance, responsive analytics dashboard built with Next.js 15 and Tailwind CSS v4. This project demonstrates advanced frontend architecture, data visualization, and a professional-grade dark mode implementation.
 
 ✨ Features
-Customer Management: Full CRUD (Create, Read, Update, Delete) functionality for customer profiles.
+Real-time Data Visualization: Interactive revenue and user trend charts powered by Recharts.
 
-Automated Invoicing: System for generating and tracking billing records.
+Modern UI/UX: Built using shadcn/ui components for a polished, industry-standard feel.
 
-Secure Authentication: User registration and login flows to protect sensitive business data.
+Smart Dark Mode: A persistent, hydration-safe theme toggle (Light/Dark).
 
-Relational Database: Optimized database schema for handling complex relationships between customers and invoices.
+Tailwind CSS v4: Utilizes the latest CSS-first configuration and OKLCH color variables for superior design consistency.
+
+Fully Responsive: Seamless layout across mobile, tablet, and desktop views.
 
 🛠️ Tech Stack
-Backend: Python 3.x / Django
+Framework: Next.js 15 (App Router)
 
-Database: SQLite (Development) / PostgreSQL (Production)
+Styling: Tailwind CSS v4
 
-Frontend: Django Templates with Tailwind CSS
+Components: shadcn/ui
 
-🚀 Setup Instructions
-Create a virtual environment:
+Charts: Recharts
 
-Bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install requirements:
+Icons: Lucide React / Emoji
 
-Bash
-pip install -r requirements.txt
-Run migrations:
+🚀 Getting Started
+Clone the repository:
 
 Bash
-python manage.py migrate
-Start the server:
+git clone https://github.com/MemoonaFatima07/saas-analytics-dashboard.git
+Install dependencies:
 
 Bash
-python manage.py run server
+npm install
+Run the development server:
+
+Bash
+npm run dev
+Open http://localhost:3000 to see the results.
